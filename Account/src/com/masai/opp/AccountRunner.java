@@ -8,9 +8,13 @@ public class AccountRunner {
 		amount.setBalance(0);
 		
 		
+		System.out.println("Initlal Amount =>"+ amount.getBalance());
+		amount.credit(500);
+		System.out.println("Amount after Cradit =>"+ amount.getBalance());
+		amount.debit(70);
 		
 		
-		System.out.println("Amount =>"+ amount.getBalance());
+		System.out.println("Amount after debit =>"+ amount.getBalance());
 		
 	}
 
